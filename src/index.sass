@@ -1,0 +1,152 @@
+body
+    background-color: #A9A9A9
+    font-family: 'Roboto', sans-serif
+
+.app
+    background-color: #808080
+    border-radius: 8px
+    margin: 0 auto
+    padding: 16px 0
+    text-align: center
+    width: 50%
+
+    &__header
+        color: #fffafa
+        margin-bottom: 24px
+
+    &__form
+        margin: 0 auto 40px auto
+        width: 60%
+
+    &__input-first-name
+        background-color: #fffafa
+        border: none
+        border-right: 1px solid #808080
+        color: #708090
+        padding: 8px
+        width: 30%
+        font-weight: bold
+        letter-spacing: .5px
+
+        &::placeholder
+            letter-spacing: .5px
+            font-weight: 300
+
+        &:focus
+            background-color: #DCDCDC
+            outline: none
+
+    &__input-last-name
+        background-color: #fffafa
+        border: none
+        padding: 8px
+        color: #708090
+        width: 30%
+        font-weight: bold
+        letter-spacing: .5px
+
+        &::placeholder
+            letter-spacing: .5px
+            font-weight: 300
+
+        &:focus
+            background-color: #DCDCDC
+            outline: none
+
+    &__btn-form-submit
+        background-color: #A9A9A9
+        letter-spacing: .5px
+        border: none
+        cursor: pointer
+        padding: 8px
+        width: 10%
+        transition: .3s
+
+        &:hover
+            background-color: #228B22
+
+        &:focus
+            background-color: #228B22
+            outline: none
+
+    &__btn-form-remove
+        background-color: #FF6347
+        border: none
+        cursor: pointer
+        padding: 8px
+        width: 5%
+        transition: .3s
+
+        &:hover
+            background-color: #FF4500
+
+        &:focus
+            background-color: #FF4500
+            outline: none
+
+    &__developer-list
+        list-style: none
+        padding: 0
+    
+    &__developer-item
+        display: flex
+        flex-direction: column
+        background-color: #A9A9A9
+        width: 50%
+        margin: 0 auto
+        padding: 8px
+        border-bottom: 1px solid #808080
+
+    &__developer-first-name
+        margin: 0
+        margin-bottom: 16px
+        font-weight: 300
+
+    &__developer-last-name
+        margin: 0
+        margin-bottom: 24px
+        font-weight: 300
+
+    &__developer-span
+        color: #36454F
+        font-weight: 500
+
+    &__developer-btn-edit
+        background-color: #808080
+        border: none
+        color: #fffafa
+        cursor: pointer
+        font-size: 12px
+        margin: 0 auto
+        padding: 8px
+        text-transform: uppercase
+        width: 40%
+        letter-spacing: 1px
+        transition: .3s
+
+        &:hover
+            background-color: #228B22
+
+        &:focus
+            background-color: #228B22
+            outline: none
+
+    &__developer-btn-remove
+        background-color: #FF6347
+        border: none
+        color: #fffafa
+        cursor: pointer
+        font-size: 12px
+        margin: 0 auto
+        padding: 8px
+        text-transform: uppercase
+        width: 40%
+        letter-spacing: 1px
+        transition: .3s
+
+        &:hover
+            background-color: #FF4500
+
+        &:focus
+            background-color: #FF4500
+            outline: none
