@@ -1,0 +1,3 @@
+mutation RemoveDeveloper($id: String!) {
+  removeDeveloper(id: $id)
+}

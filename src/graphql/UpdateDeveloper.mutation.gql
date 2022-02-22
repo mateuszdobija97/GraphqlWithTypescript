@@ -1,0 +1,7 @@
+mutation UpdateDeveloper(
+  $id: String!
+  $firstName: String!
+  $lastName: String!
+) {
+  updateDeveloper(id: $id, firstName: $firstName, lastName: $lastName)
+}

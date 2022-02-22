@@ -1,0 +1,3 @@
+mutation CreateDeveloper($firstName: String!, $lastName: String!) {
+  createDeveloper(firstName: $firstName, lastName: $lastName)
+}

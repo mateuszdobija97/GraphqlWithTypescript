@@ -1,0 +1,7 @@
+query developers {
+  developers {
+    id
+    firstName
+    lastName
+  }
+}
